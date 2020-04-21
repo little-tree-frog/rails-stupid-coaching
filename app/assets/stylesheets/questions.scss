@@ -1,0 +1,59 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.container {
+  width: 800px;
+  padding: 40px;
+  margin: 0 auto;
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
+.card-question {
+  border-left: solid 5px rgb(220, 220, 220);
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.card-answer {
+  border-left: solid 5px rgb(220, 220, 220);
+  background-color: rgb(255, 254, 227);
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+a {
+  color: rgb(20, 120, 173);
+  text-decoration: none;
+  font-size: 18px;
+}
+
+p {
+  font-size: 20px;
+}
+
+.form-container {
+  display: flex;
+  max-width: 400px;
+}
+
+form input[type="text"] {
+  flex-grow: 1;
+  width: 100%;
+  border: 2px solid rgb(220, 220, 220);
+  border-right: none;
+  padding: 5px;
+  height: 20px;
+  border-radius: 8px 0 0 8px;
+  font-size: 20px;
+}
+
+form input[type="submit"] {
+  flex-grow: 1;
+  height: 34px;
+  border: none;
+  background: rgb(20, 120, 173);
+  color: white;
+  border-radius: 0 5px 5px 0;
+  font-size: 20px;
+}
