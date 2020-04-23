@@ -4,7 +4,7 @@ class QuestionsController < ApplicationController
   end
 
   def answer
-    @answer = params[:answer]
+    @answer = params[:question]
     @print_me = ""
     if @answer.include?("?")
       @print_me = "Silly question, get dressed and go to work!"
